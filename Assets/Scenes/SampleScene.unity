@@ -202,7 +202,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166142015}
-  m_LocalRotation: {x: 0.14564717, y: -0.000006586324, z: 0.0000009696189, w: 0.98933667}
+  m_LocalRotation: {x: 0.14564717, y: -0.000006651422, z: 0.0000009792025, w: 0.98933667}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1025,7 +1025,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.16357122, y: -0.0000066016, z: 0.0000010945739, w: 0.98653156}
+  m_LocalRotation: {x: 0.16357122, y: -0.0000066665134, z: 0.0000011053368, w: 0.98653156}
   m_LocalPosition: {x: 0, y: 2.5, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1142,7 +1142,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045420415}
-  m_LocalRotation: {x: 0.1635712, y: -0.000006553902, z: 0.0000010866654, w: 0.98653156}
+  m_LocalRotation: {x: 0.1635712, y: -0.0000066463112, z: 0.0000011019874, w: 0.98653156}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1260,7 +1260,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345145899}
-  m_LocalRotation: {x: 0.18148863, y: -0.000006539638, z: 0.000001206913, w: 0.983393}
+  m_LocalRotation: {x: 0.18148863, y: -0.000006618583, z: 0.0000012214826, w: 0.983393}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1711,8 +1711,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0caeed60b4842d449d40ab6f19d8a54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 0.5
-  runSpeed: 1
+  moveSpeed: 5
+  runMultiplier: 2
+  rotationSpeed: 4
 --- !u!4 &2106656712 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 68faeb38a3dd4d44c929bebfc75adce4, type: 3}
